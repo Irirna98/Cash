@@ -2,6 +2,7 @@ package ru.netology.service;
 
 import org.junit.Test;
 
+///import static jdk.internal.logger.LoggerFinderLoader.service;
 import static org.junit.Assert.assertEquals;
 
 
@@ -14,7 +15,7 @@ public class CashbackHackServiceTest {
 
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
-        int expected = 100;
+        int expected = 1;
 
         int actual = service.remain(amount);
         assertEquals(expected, actual);
@@ -31,4 +32,5 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         assertEquals(expected, actual);
     }
+
 }

@@ -2,11 +2,13 @@ package ru.netology.service;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 
 import static org.junit.Assert.assertEquals;
 
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
     @Test
     public void shouldReturn100IfAmountIs() {
 

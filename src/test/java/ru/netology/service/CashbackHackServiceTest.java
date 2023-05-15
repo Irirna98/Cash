@@ -1,10 +1,14 @@
 package ru.netology.service;
 
-import org.junit.jupiter.api.Test;
+///import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+///import static org.junit.jupiter.api.Assertions.*;
 
-class CashbackHackServiceTest {
+import org.testng.annotations.Test;
+
+import static org.testng.AssertJUnit.assertEquals;
+
+public class CashbackHackServiceTest {
     @Test
     void shouldReturn100IfAmountIs() {
 
